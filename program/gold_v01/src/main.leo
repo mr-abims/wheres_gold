@@ -1,7 +1,7 @@
-// The 'puzzle_pieces_v016' program.
+// The 'wheres_gold_v01' program.
 // Without nested imports -- puzzle pieces is going to need Piece Keepers to enforce
 
-program puzzle_pieces_v016.aleo {
+program wheres_gold_v01.aleo {
     mapping supply: field => u64;
 
     struct Message {
@@ -9,7 +9,7 @@ program puzzle_pieces_v016.aleo {
         field_2: field,
         field_3: field,
         field_4: field,
-        field_5: field,
+         field_5: field,
     }
 
     // Never owned by multisig

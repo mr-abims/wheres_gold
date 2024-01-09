@@ -5,7 +5,7 @@ export const useMsRecords = (address?: string) => {
     filter: {
       programIds: [
         'wheres_alex_v018.aleo',
-        'puzzle_pieces_v015.aleo',
+        'wheres_gold_v01.aleo',
         'multiparty_pvp_utils_v015.aleo',
       ],
       type: 'unspent',
@@ -14,10 +14,10 @@ export const useMsRecords = (address?: string) => {
     multisig: true,
   });
   const msGameRecords = records?.filter(
-    (record) => record.programId === 'wheres_alex_v018.aleo'
+    (record) => record.programId === 'wheres_gold_v02.aleo'
   );
   const msPuzzleRecords = records?.filter(
-    (record) => record.programId === 'puzzle_pieces_v015.aleo'
+    (record) => record.programId === 'wheres_gold_v01.aleo'
   );
   const msUtilRecords = records?.filter(
     (record) => record.programId === 'multiparty_pvp_utils_v015.aleo'
